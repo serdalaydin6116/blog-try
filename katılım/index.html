@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <h1 id="title">NET <span>FLIX</span></h1>
+        <h3 id="description">
+          Thank you for signing up to Netflix.Tell me more about yourself.
+        </h3>
+      </header>
+      <section id="survey_form_container">
+        <form action="result.html" method="get">
+          <div class="input-box">
+            <label for="name">Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="enter your name"
+              
+            />
+          </div>
+          <div class="input-box">
+            <label for="age">Age</label>
+            <br />
+            <input type="number" name="Age" id="age" placeholder="age" />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="enter your email"
+            />
+          </div>
+          <div class="input-box">
+            <label for="content">Content Type</label>
+            <br />
+            <select name="content" id="dropdown" style="background-color: aqua;">
+              <option value="movie">Movies</option>
+              <option value="series" selected>Series</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <label for="check">Movie Type</label>
+            <br />
+            <input
+              type="checkbox" 
+              name="movie"
+              id="first-check"
+              value="comedy"
+              checked 
+            />
+            <label for="first-check" style="font-size: 1rem;">Comedy</label>
+            <br />
+            <input
+              type="checkbox"
+              name="movie"
+              id="second-check"
+              value="action" 
+            />
+            <label for="second-check" style="font-size: 1rem;">Action</label>
+            <br />
+            <input
+              type="checkbox"
+              name="movie"
+              id="third-check"
+              value="romance"
+              checked
+            />
+            <label for="third-check" style="font-size: 1rem;"">Romance</label>
+          </div>
+          <div class="input-box">
+            <label for="">Gender</label>
+            <br />
+            <input type="radio" name="gender" id="gender_1" value="Male"/>
+            <label for="gender_1" style="font-size: 1rem;">Male</label>
+            <br />
+            <input
+              type="radio"
+              name="gender"
+              id="gender_2"
+              value="Female"
+              checked
+            />
+            <label for="gender_2" style="font-size: 1rem;">Female</label>
+            <br />
+            <input type="radio" name="gender" id="gender_3" value="Other" />
+            <label for="gender_3" style="font-size: 1rem;">Other</label>
+          </div>
+          <div class="input-box">
+            <label for="feedback">Feedback</label>
+            <br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="30"
+              rows="10"
+              placeholder="any comment" style="background-color: rgb(95, 138, 20, 0.6);"
+            ></textarea>
+          </div>
+          <div class="submit">
+              <button type="submit" id="form-button" >SEND</button>
+          </div>
+
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,424 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin: 0px;
+}
+
+.header-up {
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.header-up-left {
+  float: left;
+  margin-left: 5px;
+  width: 70%;
+  /* font-size: 1.5rem; */
+  /* border: 1px solid black;
+    border-radius: 8px; */
+  /* background-color: chartreuse; */
+}
+.header-up-right {
+  float: right;
+  margin-right: 15px;
+}
+.header-up-right-links {
+  color: black;
+  text-decoration: none;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  background-color: burlywood;
+}
+.header-up-right a:hover {
+  text-decoration: underline;
+  background-color: cyan;
+}
+#join{
+  /* width: 24px
+  border */
+}
+
+
+
+
+
+.header-down {
+  width: 100%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding: 1rem;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darksalmon;
+  height: 2rem;
+}
+
+.header-down-left {
+  opacity: 0.8;
+  float: left;
+}
+.header-down-left a:hover {
+  text-decoration: overline;
+  background-color: darkolivegreen;
+}
+
+.header-down-right {
+  opacity: 0.8;
+  float: right;
+  margin-right: 25px;
+  font-style: oblique;
+}
+
+.header-down-left-links {
+  color: black;
+  /* border: 1px solid black;
+    border-radius: 0.4rem; */
+  /* background-color: brown;  */
+  margin: 30px;
+}
+
+#explore-button {
+  border: none;
+  width: 70px;
+  height: 20px;
+  opacity: 1;
+}
+.div {
+  width: 35%;
+  /* height: 100px; */
+  margin-left: 15px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  background-color: darkslategrey;
+  float: left;
+  
+}
+.aside-article {
+  padding: 0px;
+}
+#ani {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: dimgrey;
+  opacity: 0.5;
+}
+#ani:hover{
+    background-color: cadetblue;
+    opacity: 1;
+}
+#article-1 {
+  margin: 5px;
+  padding-top: 5px;
+}
+#ani-resim {
+  float: right;
+  width: 9rem;
+  height: 6rem;
+  margin: 10px;
+  border: 1px solid black;
+}
+#h3-ani{
+    margin-bottom: 0.8rem;
+    margin-top: 1.2rem;
+}
+.h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: brown;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#aspendos {
+  text-align: justify;
+  margin: 10px;
+  background-color: dimgrey;
+  opacity: 0.5;
+}
+#aspendos:hover{
+    background-color: darkgoldenrod;
+    opacity: 1;
+}
+#aspendos-resim {
+  float: left;
+  width: 8rem;
+  margin: 10px;
+  border: 1px solid black;;
+}
+#article-2 {
+  margin: 5px;
+  padding-top: 5px;
+}
+#h3-aspendos{
+    margin-bottom: 0.8rem;
+    margin-top: 1.2rem;
+    background-color: darkkhaki;
+}
+#sumela {
+    text-align: justify;
+    margin: 10px;
+    background-color: dimgrey;
+    opacity: 0.5;
+}
+#article-3 {
+    margin: 5px;
+    padding-top: 5px;
+    
+}
+#h3-sumela{
+    margin-bottom: 0.8rem;
+    margin-top: 1.2rem;
+    background-color: mediumpurple;
+}
+#sumela-resim{
+    float: right;
+    width: 10rem ;   
+    border: 1px solid black;
+    margin: 10px;
+
+}
+#sumela:hover{
+    background-color: mediumseagreen;
+    opacity: 1;
+}
+
+
+
+.div2{
+    width: 60%;
+    /* height: 100px; */
+    margin-left: 0px;
+    margin-right: 15px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    background-color: slategray;
+    float: right;
+}
+
+.main{
+    background-color: steelblue;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.caps{
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    text-align: center;
+    line-height: 2rem;
+}
+.second-div-h3{
+    font-size: 1.5rem;
+    color: maroon;
+    line-height: 1.5rem; 
+    padding-left: 10px;     
+   
+}
+.child-1{
+    border: 2px solid black;
+    margin-bottom: 10px; 
+    padding-top: 5px;
+}
+
+#section-1{        
+   opacity: 0.5;
+}
+#section-1:hover{
+    background-color: coral;
+    opacity: 1;
+}
+
+#Rus-Ukr{
+    width: 15rem ;   
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right;
+}
+#article-4{
+    text-align: justify;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+#section-2{
+    opacity: 0.5;    
+    
+}
+#section-2:hover{
+    background-color: darkgoldenrod;
+    opacity: 1;
+}
+
+
+#cinema{
+    width: 7rem ;   
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left
+}
+#article-5{
+    text-align: justify;
+    margin: 5px;
+}
+
+
+#section-3{
+    opacity: 0.5;    
+    
+}
+#section-3:hover{
+    background-color: dimgrey;
+    opacity: 1;
+}
+
+
+#immune{
+    width: 15rem ;   
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right
+}
+#article-6{
+    text-align: justify;
+    margin: 5px;
+}
+
+
+#section-4{
+    opacity: 0.5;    
+    
+}
+#section-4:hover{
+    background-color: greenyellow;
+    opacity: 1;
+}
+#sport{
+    width: 15rem ;   
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right
+}
+#article-7{
+    text-align: justify;
+    margin: 5px;
+}
+
+.footer{
+    background-color: grey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.clear{
+    clear: both;
+}
+table, th, td {
+    border: 3px solid ;
+    border-collapse: collapse;
+    opacity: 0.5;
+}
+th{
+    background-color: crimson;
+}
+td{
+    /* background-color: cyan; */
+}
+table, th, td:hover{
+    opacity: 1;
+}
+td:hover{
+    background-color: darkblue;
+    color: white;
+}
+#table-1{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.table{
+    margin: 10px auto;
+    
+}
+tr:nth-child(even){
+  background-color: chocolate;
+}
+
+
+
+#tobb{
+    width: 16rem;
+    margin-left: 50px;
+    margin-right: 60px;
+    vertical-align: middle;
+}
+#toys{
+    width: 8rem;
+    margin-left: 50px;
+    margin-right: 60px;
+    vertical-align: middle;
+}
+#kultur{
+    width: 10rem;
+    margin-left: 50px;
+    margin-right: 60px;
+    vertical-align: middle;
+}
+footer nav a{
+    color: black;
+    opacity: 0.5;
+}
+footer nav a:hover{
+    opacity: 1;
+    background-color: cadetblue;
+}
+.footer-left{
+    float: left;
+    background-color: chartreuse;
+
+}
+.footer-right{
+    float: right;
+}
+#copyright{
+    background-color: crimson;
+    width: 100%;
+    text-align: center;
+}
+.footer-down-links{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
