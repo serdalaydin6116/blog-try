@@ -5,6 +5,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   margin: 0px;
+  background-color: rgba(2, 2, 36, 0.877);
 }
 
 .header-up {
@@ -392,6 +393,7 @@ footer nav a:hover{
 }
 .footer-right{
     float: right;
+    background-color: chartreuse;
 }
 #copyright{
     background-color: crimson;
